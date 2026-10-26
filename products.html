@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17251f">
+<meta name="description" content="Browse YAGE, PRAMIE, NOVOO, TOMTOC, SHARP, ONIKUMA, ONE BEAT and household pest-control products.">
+<title>Our Products | HE Avatar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topstrip">HE AVATAR <span>/</span> Explore our product collections</div>
+<header class="header"><div class="wrap bar">
+  <a class="logo" href="index.html" aria-label="HE Avatar home"><span class="mk">HE</span><span><b>HE AVATAR</b><small>PRODUCT COLLECTIONS</small></span></a>
+  <ul class="nav" aria-label="Main navigation"><li><a href="index.html">Home</a></li><li class="has-drop"><a href="products.html" class="active">Our Products<span class="caret">▾</span></a><div class="drop" data-brand-links></div></li><li><a href="about.html">About Us</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact Us</a></li></ul>
+  <a class="btn btn-leaf cta" href="enquiry.html">Get a quote ↗</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav">☰</button>
+</div><nav class="mnav" id="mnav" aria-label="Mobile navigation"><a href="index.html">Home</a><a href="products.html">Our Products</a><a href="about.html">About Us</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact Us</a></nav></header>
+<div class="rail" aria-label="Social links"><a href="#" aria-label="Facebook"><i data-icon="fb"></i></a><a href="#" aria-label="Instagram"><i data-icon="ig"></i></a><a href="#" aria-label="LinkedIn"><i data-icon="in"></i></a><a href="#" aria-label="YouTube"><i data-icon="yt"></i></a></div>
+<a class="vtab" href="enquiry.html">Enquire now</a>
+<button class="totop" id="totop" aria-label="Back to top"><i data-icon="up"></i></button>
+<main>
+<!-- SECTION 1 — SLIDERS -->
+<section class="hero" id="hero" aria-roledescription="carousel" aria-label="Featured collections">
+  <div class="slides" id="slides"></div>
+  <button class="arrow prev" id="prev" aria-label="Previous slide">‹</button><button class="arrow next" id="next" aria-label="Next slide">›</button>
+  <div class="dots" id="dots"></div><div class="progress" id="progress"></div>
+</section>
+<!-- SECTION 2 — SLIDER ICON STRIP -->
+<section class="iconstrip" aria-label="Browse by category"><div class="row" id="iconRow"></div></section>
+<!-- SECTION 3 — OUR PRODUCTS (menu bar + sub pages 1-8) -->
+<div id="menuAnchor"></div>
+<div class="menubar" aria-label="Product menu"><div class="row" id="menuRow"></div></div>
+<section class="section tight" id="catalogue"><div class="wrap" id="subRoot" aria-live="polite"></div></section>
+<!-- SECTION 7 — SERVING ACROSS INDIA &amp; TESTIMONIALS -->
+<section class="section bg-white" id="serving"><div class="wrap serve">
+  <div class="reveal"><span class="eyebrow">Serving across India</span><h2 class="sec-title" style="margin-bottom:22px"><span class="mark sp">Dea</span>lers Location</h2>
+    <div class="mapbox"><svg viewBox="0 0 400 360" role="img" aria-label="Illustrative map of India with service hubs">
+<path class="land" d="M150,12 L185,20 L205,45 L235,55 L255,80 L290,88 L325,92 L360,100 L372,118 L345,125 L330,120 L310,128 L300,140 L285,135 L270,150 L255,150 L250,170 L240,200 L225,235 L205,275 L190,300 L180,335 L168,300 L155,260 L135,225 L110,200 L80,180 L55,160 L70,150 L75,128 L60,110 L95,95 L100,70 L125,55 L130,30 Z"/>
+<g><circle class="pulse" cx="165" cy="90" r="7"/><circle class="pin" cx="165" cy="90" r="4"/><text class="pin-label" x="173" y="86">Delhi NCR</text></g>
+<g><circle class="pulse" cx="100" cy="185" r="7" style="animation-delay:.4s"/><circle class="pin" cx="100" cy="185" r="4"/><text class="pin-label" x="108" y="181">Mumbai</text></g>
+<g><circle class="pulse" cx="285" cy="138" r="7" style="animation-delay:.8s"/><circle class="pin" cx="285" cy="138" r="4"/><text class="pin-label" x="293" y="134">Kolkata</text></g>
+<g><circle class="pulse" cx="180" cy="215" r="7" style="animation-delay:1.2s"/><circle class="pin" cx="180" cy="215" r="4"/><text class="pin-label" x="188" y="211">Hyderabad</text></g>
+<g><circle class="pulse" cx="195" cy="272" r="7" style="animation-delay:1.6s"/><circle class="pin" cx="195" cy="272" r="4"/><text class="pin-label" x="203" y="276">Chennai</text></g>
+<g><circle class="pulse" cx="165" cy="285" r="7" style="animation-delay:2s"/><circle class="pin" cx="165" cy="285" r="4"/><text class="pin-label" x="60" y="289">Bengaluru</text></g>
+</svg><div class="chips"><span>Delhi NCR</span><span>Mumbai</span><span>Kolkata</span><span>Hyderabad</span><span>Chennai</span><span>Bengaluru</span></div><p class="note" style="text-align:left;margin-top:12px">Illustrative map. Replace the pins with your real dealer locations.</p></div></div>
+  <div class="reveal d1"><div class="tm-head"><h2 class="sec-title" style="margin:0">Testimonials</h2><span class="tm-note">Sample entries — add verified reviews</span></div>
+    <div class="tm-stage" id="tmStage"></div><div class="tm-dots" id="tmDots"></div></div>
+</div></section>
+<!-- SECTION 8 — FAQ -->
+<section class="section" id="faq"><div class="wrap faq">
+  <div class="reveal"><span class="eyebrow">FAQ</span><h2 class="sec-title"><span class="mark sp">FA</span>Q</h2><p class="lead"><b>Frequently Asked Questions.</b> Here you can find answers to the most common questions about our products. If you still can't find the answer, <a class="link" href="contact.html">contact us</a>.</p></div>
+  <div class="faq-list reveal d1" id="faqList"></div>
+</div></section>
+</main>
+<!-- SECTION 9 — FOOTER -->
+<footer class="footer"><div class="wrap">
+  <div class="fgrid">
+    <div><a class="logo" href="index.html"><span class="mk">HE</span><span><b>HE AVATAR</b><small>PRODUCT COLLECTIONS</small></span></a><p>Product collections and household pest-control range.</p>
+      <div class="soc"><a href="#" aria-label="Facebook"><i data-icon="fb"></i></a><a href="#" aria-label="Instagram"><i data-icon="ig"></i></a><a href="#" aria-label="LinkedIn"><i data-icon="in"></i></a><a href="#" aria-label="YouTube"><i data-icon="yt"></i></a></div></div>
+    <div><h5>Brands</h5><ul data-brand-li></ul></div>
+    <div><h5>Household</h5><ul data-house-li></ul></div>
+    <div><h5>Company</h5><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Our Products</a></li><li><a href="about.html">About Us</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+    <div><h5>Registered office</h5><ul><li>[Add registered office address]</li><li>[City, State, PIN]</li></ul><h5 style="margin-top:20px">Customer care</h5><ul><li>[Add phone number]</li><li>[Add email address]</li><li>[Add working hours]</li></ul></div>
+  </div>
+  <div class="fbottom"><span>© <span id="year"></span> HE Avatar. All rights reserved.</span><span>Verify product details and follow official product labels.</span></div>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
